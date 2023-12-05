@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Experimenting</title>
+    </head>
+    <body>
+<h1>Cities I Have Lived In</h1>
+<ul>
+   <li>Boston</li>
+<p><span>I had no choice but to live here while I was young</span></p>
+   <li>Fayetteville</li>
+<p><span>The military is to blame for this one</span></p>
+</ul>
+<br>
+<br>
+<h1>Cities I Would Like To Visit</h1>
+<ol>
+  <li><strong>Orlando</strong></li>
+  <li><em>Denver</em></li>
+  <li><strong>Los Angeles</strong></li>
+</ol>
+<br>
+<br>
+<img src={burner.jpg} width="200" height="267" alt="Burning Incense">
+<br>
+<br>
+<a href="favorites.html">Page Of Favorites</a>
+    </body>
+</html>
