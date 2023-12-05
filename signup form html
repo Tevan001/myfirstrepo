@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <form>
+        <label for="email">Enter your email below:</label>
+
+        <input type="email" id="email" pattern=".+@example\.com" size="30" required />
+        <br>
+        <br>
+            <label for="pass">Password (8 characters minimum):</label>
+            <input type="password" id="pass" name="password" minlength="8" required />
+         <br>
+         <br>
+         <label for="name">Github Username (4 to 8 characters):</label>
+
+<input type="text" id="name" name="name" required minlength="4" maxlength="8" size="10" />
+    
+    <br>
+    <br>
+
+    <fieldset>
+        <legend>Select A Program:</legend>
+      
+        <div>
+          <input type="radio" id="enterprise" name="drone" value="enterprise" checked />
+          <label for="enterprise">Enterprise</label>
+        </div>
+      
+        <div>
+          <input type="radio" id="pro" name="drone" value="pro" />
+          <label for="pro">Pro</label>
+        </div>
+      
+        <div>
+          <input type="radio" id="free" name="drone" value="free" />
+          <label for="free">Free</label>
+        </div>
+      </fieldset>
+
+      <br>
+      <br>
+
+      <div>
+        <input type="checkbox" id="rememberme" name="rememberme" checked />
+        <label for="rememberme">Remember Me</label>
+      </div>
+
+</form>
+</html>
